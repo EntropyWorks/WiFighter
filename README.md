@@ -9,7 +9,7 @@ WiFi jamming device - Imgur album: http://imgur.com/a/3pUzN
 - Place *wifighter.py* in */opt/*.
 - Place *wifighter.service* in */etc/systemd/system/*.
 - Enable the WiFighter service:
-	systemctl enable wifighter
+    systemctl enable wifighter
 - Plug an aircrack-ng compatible WiFi adapter (I used TL-WN722N).
 
 * Arduino:
