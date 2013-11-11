@@ -1,0 +1,9 @@
+[Unit]
+Description=WiFighter service
+
+[Service]
+ExecStart=/opt/wifighter.py
+# "Type=forking" or "Type=oneshot" may also be needed
+
+[Install]
+WantedBy=multi-user.target
