@@ -8,7 +8,7 @@ WiFi jamming device - Imgur album: http://imgur.com/a/3pUzN
 
 * Raspberry Pi:
     - Install Arch Linux as described here http://archlinuxarm.org/platforms/armv6/raspberry-pi
-    - Install python, python-raspberry-gpio, mdk3, i2c-tools packages.
+    - Install python2, python2-raspberry-gpio, mdk3, i2c-tools packages.
     - Place *wifighter.py* in */opt/*.
     - Place *wifighter.service* in */etc/systemd/system/*.
     - Enable the WiFighter service: *systemctl enable wifighter*.
